@@ -1,5 +1,5 @@
+import { RenderMarkdown } from "@thonlabs/ui";
 import { marked } from "marked";
-import { RenderMarkdown } from "thon-ui";
 
 interface PostProps {
     params: {

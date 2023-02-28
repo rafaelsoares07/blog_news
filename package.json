@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@thonlabs/ui": "^0.1.0",
     "@types/marked": "^4.0.8",
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
