@@ -1,8 +1,8 @@
-# <p align="center">Projeto DT Money</p>
+# <p align="center">Blog pessoal</p>
 
 <p align = "center">
    <img src="https://img.shields.io/badge/author-Rafael_Soares-4dae71?style=flat-square" />
-   <img src="https://img.shields.io/github/languages/count/rafaelsoares07/dt-money?color=4dae71&style=flat-square" />
+   <img src="https://img.shields.io/github/languages/count/rafaelsoares07/blog_news?color=4dae71&style=flat-square" />
 </p>
 
 ## :clipboard: Descrição:
@@ -13,11 +13,14 @@ Em resumo, o desenvolvimento deste projeto em Next.js me permitiu explorar muito
 
 ## :art: Layouts:
 ### <p align="center">Desktop</p>
-![Desktop](https://user-images.githubusercontent.com/88918826/221388791-4e93705e-e47b-443a-b83d-68eeba8c7dd3.png)
+![Desktop](https://user-images.githubusercontent.com/88918826/221944797-6c9b3b4d-1220-4999-b16e-54999be9be59.png)
 ### <p align="center">Mobile</p>
 <div align="center">
-   <img src="https://user-images.githubusercontent.com/88918826/221389117-9878314e-65df-4518-8d6c-c186af833842.png"/>
+   <img src="https://user-images.githubusercontent.com/88918826/221944966-e811e745-3297-4c86-848a-0dc20fb264fa.png"/>
 </div>
+
+
+
 
 ## :computer: Tecnologias e Libs utilizadas:
 - Next.JS
