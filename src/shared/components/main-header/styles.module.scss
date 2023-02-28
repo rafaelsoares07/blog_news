@@ -7,6 +7,7 @@
 }
 
 .container {
+    padding: 1rem 2rem;
     height: 100vh;
     width: 100%;
     max-width: 550px;
@@ -60,5 +61,7 @@
         height: auto;
     }
 
-
+    .display_none {
+        display: none;
+    }
 }

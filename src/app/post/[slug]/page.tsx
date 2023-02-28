@@ -1,5 +1,6 @@
 import { RenderMarkdown } from "@thonlabs/ui";
 import { marked } from "marked";
+import styles from './styles.module.scss';
 
 interface PostProps {
     params: {
@@ -25,7 +26,7 @@ export default async function Post({ params }: PostProps) {
     return (
         <>
             <h1>{post.title}</h1>
-            <div>
+            <div className={styles.container_markdown}>
                 <RenderMarkdown value={post.body} />
             </div>
         </>

@@ -18,8 +18,8 @@ export default function MainHeader() {
           </div>
         </div>
 
-        <p>Olá, meu nome é Rafael Soares Gabriel e atualmente moro em Natal, Rio Grande do Norte. Sou um desenvolvedor Fullstack em busca da minha primeira oportunidade de emprego na área. </p>
-        <p>Tenho paixão por tecnologia e sou constantemente aprendendo coisa novas que irei compartilhar aqui!</p>
+        <p className={styles.display_none}>Olá, meu nome é Rafael Soares Gabriel e atualmente moro em Natal, Rio Grande do Norte. Sou um desenvolvedor Fullstack em busca da minha primeira oportunidade de emprego na área. </p>
+        <p className={styles.display_none}>Tenho paixão por tecnologia e sou constantemente aprendendo coisa novas que irei compartilhar aqui!</p>
       </div>
     </header>
   )
