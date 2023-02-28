@@ -1,0 +1,40 @@
+.container {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.main_text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.sec_text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6b7280;
+}
+
+.header_text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6b7280;
+    display: flex;
+}
+
+.content_tabcoin {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width:796px) {
+    .main_text {
+        font-size: 1.8rem;
+    }
+}
