@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <p align="center">Blog pessoal</p>
 
-## Getting Started
+<p align = "center">
+   <img src="https://img.shields.io/badge/author-Rafael_Soares-4dae71?style=flat-square" />
+   <img src="https://img.shields.io/github/languages/count/rafaelsoares07/blog_news?color=4dae71&style=flat-square" />
+</p>
 
-First, run the development server:
+## :clipboard: Descrição:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Este é o meu primeiro site desenvolvido usando Next.js, o projeto em questão é um blog simples que busca informações dos meus posts em uma API externa chamada TabNews, a principal motivação para esse projeto foi poder criar uma maneira de compartilhar meus conhecimentos na área de programação e ter um contato maior com a comunidade de modo geral.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Em resumo, o desenvolvimento deste projeto em Next.js me permitiu explorar muitos conceitos importantes da tecnologia, desde a busca de dados em uma API externa até a implementação de rotas dinâmicas e pré-renderização estática. Estou animado para continuar aprendendo sobre essa tecnologia, publicar novos posts e implementar novas funcionalidades nesse meu primeiro projeto.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## :art: Layouts:
+### <p align="center">Desktop</p>
+![Desktop](https://user-images.githubusercontent.com/88918826/221944797-6c9b3b4d-1220-4999-b16e-54999be9be59.png)
+### <p align="center">Mobile</p>
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/88918826/221944966-e811e745-3297-4c86-848a-0dc20fb264fa.png"/>
+</div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## :computer: Tecnologias e Libs utilizadas:
+- Next.JS
+- ReactJS
+- TypeScript
+- CSS Module
+- SCSS
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## :heavy_plus_sign: Mais Informações do projeto:
+[Deploy Vercel](https://blog-news-three.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
