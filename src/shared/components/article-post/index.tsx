@@ -16,7 +16,7 @@ export default function ArticlePost({ title, details, slug, user, tabcoins }: Ar
                 <div className={styles.header_text}>
                     <p className={styles.sec_text}>{details.substring(0, 10)} - {user}</p>
                     <div className={styles.content_tabcoin}>
-                        <Image width={16} height={16} src="/estrela.png" />
+                        <Image alt="default" width={16} height={16} src="/estrela.png" />
                         <p className={styles.tabcoin}>{tabcoins}</p>
                     </div>
                 </div>

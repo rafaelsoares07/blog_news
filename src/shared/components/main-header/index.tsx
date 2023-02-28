@@ -11,7 +11,7 @@ export default function MainHeader() {
         <p className={styles.text_code}> {`// Fazer o que ama é diversão! _`}   </p>
 
         <div className={styles.content_img}>
-          <Image width={100} height={100} src='/avatar.jpeg' alt='Foto do criador do blog' />
+          <Image alt="default" width={100} height={100} src='/avatar.jpeg' alt='Foto do criador do blog' />
           <div>
             <h3>Rafael Soares</h3>
             <p>Desenvolvedor Full-Stack</p>
