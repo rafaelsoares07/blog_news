@@ -1,0 +1,64 @@
+.text_code {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #c9cc0a;
+    margin-bottom: 1rem;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    max-width: 550px;
+    background: var(--gray-900);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    img {
+        border-radius: 5rem;
+        object-fit: cover;
+    }
+
+}
+
+.content {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+.content_img {
+    display: flex;
+    align-items: center;
+
+    div {
+        margin-left: 1rem;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.contact {
+    display: flex;
+}
+
+.arrow_back {}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+}
