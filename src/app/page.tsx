@@ -26,11 +26,28 @@ async function getLastPost() {
 export default async function Home() {
 
   const posts = await getLastPost();
-
+  console.log(posts)
   return (
     <>
       <h1>Blog</h1>
-      {posts.map((item: PostProps, i: any) => <ArticlePost key={i} title={item.title} details={item.updated_at} slug={item.slug} user={item.owner_username} tabcoins={item.tabcoins} />)}
+      {
+        posts.length != 0 ?
+          posts.map((item: PostProps, i: any) =>
+            <ArticlePost
+              key={i}
+              title={item.title}
+              details={item.updated_at}
+              slug={item.slug}
+              user={item.owner_username}
+              tabcoins={item.tabcoins}
+            />
+          )
+          :
+          <>
+            <h2>Você ainda não tem nenhum post cadastrado no TabNews</h2>
+            <a href="https://www.tabnews.com.br/">Clique aqui para cadastrar um post</a>
+          </>
+      }
     </>
   )
 }
