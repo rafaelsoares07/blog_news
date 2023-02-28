@@ -8,13 +8,20 @@ export const metadata = {
 const baseURL = 'https://www.tabnews.com.br/api/v1';
 const postsEndPoint = '/contents/rafaelsreis'
 
+interface PostProps {
+  title: string;
+  updated_at: string;
+  slug: string;
+  owner_username: string;
+  tabcoins: number;
+}
+
 async function getLastPost() {
   const response = await fetch(`${baseURL}${postsEndPoint}`);
   const posts = await response.json()
-  const filter = posts.filter((post: any) => !!post.title)
+  const filter = posts.filter((post: PostProps) => !!post.title)
   return filter;
 }
-
 
 export default async function Home() {
 
@@ -23,7 +30,7 @@ export default async function Home() {
   return (
     <>
       <h1>Blog</h1>
-      {posts.map((item: any, i: any) => <ArticlePost key={i} title={item.title} details={item.updated_at} slug={item.slug} user={item.owner_username} tabcoins={item.tabcoins} />)}
+      {posts.map((item: PostProps, i: any) => <ArticlePost key={i} title={item.title} details={item.updated_at} slug={item.slug} user={item.owner_username} tabcoins={item.tabcoins} />)}
     </>
   )
 }

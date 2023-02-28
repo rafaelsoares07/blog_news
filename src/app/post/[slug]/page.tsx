@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 
 export const metadata = {
     title: 'Post Page',
-    description: 'Tela de um post do blog',
+    description: 'Tela de um post blog',
 }
 
 interface PostProps {
