@@ -19,7 +19,7 @@ export default async function Home() {
   return (
     <>
       <h1>Blog</h1>
-      {posts.map((item, i) => <ArticlePost key={i} title={item.title} details={item.updated_at} slug={item.slug} user={item.owner_username} tabcoins={item.tabcoins} />)}
+      {posts.map((item: any, i: any) => <ArticlePost key={i} title={item.title} details={item.updated_at} slug={item.slug} user={item.owner_username} tabcoins={item.tabcoins} />)}
     </>
   )
 }
