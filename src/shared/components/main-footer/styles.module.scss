@@ -1,0 +1,24 @@
+.container {
+    border-top: 1px solid #A6A6A6;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--gray-900);
+}
+
+.email {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--gray-500);
+}
+
+@media (max-width:768px) {
+    .container {
+        margin-bottom: 1rem;
+    }
+}
