@@ -1,5 +1,10 @@
 import ArticlePost from "@/shared/components/article-post";
 
+export const metadata = {
+  title: 'Home Page',
+  description: 'Tela inicial do blog',
+}
+
 const baseURL = 'https://www.tabnews.com.br/api/v1';
 const postsEndPoint = '/contents/rafaelsreis'
 
@@ -14,7 +19,6 @@ async function getLastPost() {
 export default async function Home() {
 
   const posts = await getLastPost();
-  // console.log(posts)
 
   return (
     <>

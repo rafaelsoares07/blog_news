@@ -1,6 +1,10 @@
 import { RenderMarkdown } from "@thonlabs/ui";
-import { marked } from "marked";
 import styles from './styles.module.scss';
+
+export const metadata = {
+    title: 'Post Page',
+    description: 'Tela de um post do blog',
+}
 
 interface PostProps {
     params: {
@@ -16,13 +20,9 @@ async function getLastPost(slug: string) {
     const posts = await response.json()
     return posts
 }
-
 export default async function Post({ params }: PostProps) {
 
     const post = await getLastPost(params.slug)
-    console.log(post)
-    const formatHTML = marked.parse(post.body)
-
     return (
         <>
             <h1>{post.title}</h1>
