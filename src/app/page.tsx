@@ -6,7 +6,7 @@ const postsEndPoint = '/contents/rafaelsreis'
 async function getLastPost() {
   const response = await fetch(`${baseURL}${postsEndPoint}`);
   const posts = await response.json()
-  const filter = posts.filter(post => !!post.title)
+  const filter = posts.filter((post: any) => !!post.title)
   return filter;
 }
 
